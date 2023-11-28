@@ -30,7 +30,7 @@ const About = () => {
         <div className='w-full h-full  grid grid-cols-2 gap-[23%] xl:gap-[25%] 2xl:gap-[28%]'>
           <div className='w-full h-full  flex items-end justify-end '>
             <div className='box bg-opacity-10 bg-white bg-blur-md rounded-lg p-3 h-[70%] w-[90%] flex flex-col justify-center'>
-              <h2 className='text-[15px] sm:text-sm xl:text-[18px] text-white font-bold'>Need:</h2>
+              <h2 className='text-[15px] sm:text-sm xl:text-[18px] text-white font-bold pb-2'>Need: </h2>
               <p className="text-[11px] sm:text-sm xl:text-[18px]">
                 "Data science is the compass that guides us through the vast sea
                 of information, helping us navigate and make sense of it all."
@@ -39,7 +39,7 @@ const About = () => {
           </div>
           <div className='w-full h-full  flex items-end justify-start'>
             <div className='text-[15px] sm:text-sm xl:text-[18px] box bg-opacity-10 bg-white bg-blur-md rounded-lg p-3 h-[70%] w-[90%] flex flex-col justify-center'>
-              <h2 className=' text-white font-bold'>Our Motto:</h2>
+              <h2 className=' text-white pb-2 font-bold'>Our Motto:</h2>
               <p className="text-[11px] sm:text-sm xl:text-[18px]">
                 "Data science is the compass that guides us through the vast sea
                 of information, helping us navigate and make sense of it all."
@@ -50,7 +50,7 @@ const About = () => {
         <div className='w-full h-full  grid grid-cols-2 py-14 gap-[10%] xl:gap-[10%] 2xl:gap-[12%]'>
           <div className='w-full h-full  flex items-start justify-end'>
             <div className='box bg-opacity-10 bg-white bg-blur-md rounded-lg h-full w-[90%] sm:w-[80%] p-3 flex flex-col justify-center'>
-              <h2 className='text-[15px] sm:text-sm xl:text-[18px] text-white font-bold'>Events:</h2>
+              <h2 className='text-[15px] sm:text-sm xl:text-[18px] text-white pb-2 font-bold'>Events:</h2>
               <p className="text-[11px] sm:text-sm xl:text-[18px]">
                 "Data science is the compass that guides us through the vast sea
                 of information, helping us navigate and make sense of it all."
@@ -59,7 +59,7 @@ const About = () => {
           </div>
           <div className='w-full h-full  flex '>
             <div className='box bg-opacity-10 bg-white bg-blur-md rounded-lg p-3 w-[90%] sm:w-[80%] h-full flex flex-col justify-center'>
-              <h2 className='text-[15px] sm:text-sm xl:text-[18px] text-white font-bold'>Vision:</h2>
+              <h2 className='text-[15px] sm:text-sm xl:text-[18px] pb-1 text-white font-bold'>Vision:</h2>
               <p className="text-[11px] sm:text-sm xl:text-[18px]">
                 "Data science is the compass that guides us through the vast sea
                 of information, helping us navigate and make sense of it all."
@@ -70,7 +70,7 @@ const About = () => {
         <div className='w-full h-full  grid grid-cols-2 gap-[23%] xl:gap-[25%] 2xl:gap-[28%]'>
           <div className='w-full h-full  flex items-start justify-end'>
             <div className='box bg-opacity-10 bg-white bg-blur-md rounded-lg p-3  h-[70%] w-[90%] flex flex-col justify-center'>
-              <h2 className='text-[15px] sm:text-sm xl:text-[18px] text-white font-bold'>Mission:</h2>
+              <h2 className='text-[15px] sm:text-sm xl:text-[18px] pb-1 text-white font-bold'>Mission:</h2>
               <p className="text-[11px] sm:text-sm xl:text-[18px]">
                 We aim to bridge the gap between alumni and students. This can
                 be done by conducting various mentorship sessions.
@@ -79,7 +79,7 @@ const About = () => {
           </div>
           <div className='w-full h-full  flex items-start justify-start'>
             <div className='box bg-opacity-10 bg-white bg-blur-md rounded-lg p-3 h-[70%] w-[90%] flex flex-col justify-center'>
-              <h2 className='text-[15px] sm:text-sm xl:text-[18px] text-white font-bold'>Connect:</h2>
+              <h2 className='text-[15px] sm:text-sm xl:text-[18px] pb-1 text-white font-bold'>Connect:</h2>
               <p className="text-[11px] sm:text-sm xl:text-[18px]">
                 Our community has a goal to connect all the college students to
                 the great leaders of today, And Make Sense Of It All.

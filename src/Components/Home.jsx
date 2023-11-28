@@ -14,7 +14,7 @@ const Home = () => {
 
             <div className=' w-screen max-w-screen-lg text-center font-Orbitron text-8xl font-semibold text-white mx-auto z-10 py-40 '>
                 <h1 className='h1-name1'>WELCOME <span className='h1-name1-span'>TO</span> </h1>
-            <div className='w-screen max-w-screen-lg text-center font-Orbitron  font-semibold text-white mx-auto mt-[3%]  z-10  '>
+            <div className='w-screen max-w-screen-lg text-center tracking-widest font-Orbitron  font-semibold text-white mx-auto mt-[3%]  z-10  '>
                 <h1 className='h1-name'>DATAVERSE</h1>
             </div>
             </div>
