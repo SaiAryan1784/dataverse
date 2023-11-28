@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Stint+Ultra+Expanded&family=Ultra&display=swap');
+.h1-name{
+    /* -webkit-text-stroke: 0.5px #00000091; */
+    animation: back 23s linear infinite;
+    background: url(../Assets/textbg1.png);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Ultra', serif;
+    font-size: 8rem;
+}
+.h1-name1{
+  font-size: 3.5rem;
+}
+.h1-name1-span{
+  color: white;
+  font-size: 3.5rem;
+}
+@keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .h1-name{
+      position: relative;
+      top: 60px;
+      font-size: 3.2rem;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color:rgba(255, 255, 255, 0.667);
+      background: url(../Assets/textbg.jpg);
+      -webkit-background-clip: text;
+    }
+    .h1-name1{
+      position: relative;
+      top: 60px;
+      font-size: 3.8rem;
+      /* padding-top: 160px; */
+    }
+  }
