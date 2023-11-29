@@ -15,8 +15,8 @@ const LetsConnect = () => {
                 <hr style={{ border: "1px solid gray; opacity: 0.6" }} />
                 <div class="letsConnect">
                     <div>
-                        <h1><em>Let's</em></h1>
-                        <h1><em><span>connect</span></em></h1>
+                        <h1>Let's</h1>
+                        <h1><span>connect</span></h1>
                     </div>
                     <div>
                         <pre class="lets">If you're curious about us, <br />

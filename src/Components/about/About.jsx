@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <div
-      className='relative bg-cover bg-bottom text-white w-full '
+      className='relative bg-cover bg-bottom text-white w-full z-[-5]'
       style={style}
       id='about-section'
     >
